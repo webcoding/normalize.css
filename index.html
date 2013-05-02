@@ -1,129 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Normalize.css: Make browsers render all elements more consistently.</title>
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700">
-        <link rel="stylesheet" href="1.1.1/normalize.css">
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="site-box">
-                <div class="hgroup">
-                    <h1 class="logo">Normalize.css</h1>
-                    <h2 class="tagline">A modern, HTML5-ready alternative to CSS resets</h2>
-                </div>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
-                <p class="txt-large"><a href="https://github.com/necolas/normalize.css/">Normalize.css</a> makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.</p>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-                <div class="cta-option">
-                    <a class="btn-download"
-                       href="http://necolas.github.com/normalize.css/2.1.1/normalize.css">
-                        <strong>Download</strong>
-                        <span class="version">v2.1.1</span>
-                    </a>
-                    <div class="txt-small txt-mute">IE 8+, Firefox 4+, Safari 5+, Opera, Chrome</div>
-                    <a class="txt-small txt-mute"
-                       href="https://github.com/necolas/normalize.css/blob/v2.1.1/CHANGELOG.md">See the CHANGELOG</a>
-                </div>
+    <title>Normalize.css by webcoding</title>
+  </head>
 
-                <div class="cta-option">
-                    <a class="btn-download btn-download-alt"
-                       href="http://necolas.github.com/normalize.css/1.1.1/normalize.css">
-                        Download
-                        <span class="version">v1.1.1</span>
-                    </a>
-                    <div class="txt-small txt-mute">Includes legacy browser support</div>
-                    <a class="txt-small txt-mute"
-                       href="https://github.com/necolas/normalize.css/blob/v1.1.1/CHANGELOG.md">See the CHANGELOG</a>
-                </div>
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Normalize.css</h1>
+        <h2>A modern, HTML5-ready alternative to CSS resets (as used by Twitter Bootstrap, HTML5 Boilerplate, TweetDeck, Soundcloud, and many others).</h2>
+        <a href="https://github.com/webcoding/normalize.css" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
 
-                <p class="txt-large">…or install with <a href="http://bower.io/">Bower</a>.</p>
-                <pre><code>bower install --save normalize-css</code></pre>
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h3>Welcome to GitHub Pages.</h3>
 
-                <div class="share-bar">
-                    <a class="read-more" href="http://nicolasgallagher.com/about-normalize-css/">Read more about normalize.css &raquo;</a>
+<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
-                    <div class="share-opt">
-                        <a href="https://github.com/necolas/normalize.css">
-                            <img src="github-logo.png" width="28" height="28" alt="GitHub">
-                        </a>
-                    </div>
+<pre><code>$ cd your_repo_root/repo_name
+$ git fetch origin
+$ git checkout gh-pages
+</code></pre>
 
-                    <div class="share-opt">
-                        <a class="twitter-share-button"
-                           href="https://twitter.com/share"
-                           data-count="none"
-                           data-size="large"
-                           data-text="Normalize.css: a modern HTML5-ready alternative to CSS resets"
-                           data-via="necolas"
-                           data-related="jon_neal">Tweet</a>
-                    </div>
+<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
-                    <div class="share-opt">
-                        <a class="twitter-follow-button"
-                           href="https://twitter.com/necolas"
-                           data-show-count="false"
-                           data-size="large">@necolas</a>
-                    </div>
+<h3>Designer Templates</h3>
 
-                    <div class="share-opt">
-                        <div class="g-plusone" data-annotation="none"></div>
-                    </div>
-                </div>
-            </div>
+<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
 
-            <div class="site-footer">
-                <p class="txt-large">&hellip;as used by
-                    <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>,
-                    <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>,
-                    <a href="http://yuilibrary.com/projects/yui3/">YUI 3</a>,
-                    <a href="http://tweetdeck.com/">TweetDeck</a>,
-                    <a href="https://soundcloud.com/">Soundcloud</a>,
-                    <a href="https://medium.com/">Medium</a>,
-                    <a href="http://data.nasa.gov/">NASA</a>,
-                    <a href="https://www.gov.uk/">GOV.UK</a>,
-                    <a href="http://m.guardian.co.uk/">Guardian</a>,
-                    <a href="https://www.rdio.com/">Rdio</a>,
-                    <a href="http://favstar.fm/">Favstar</a>,
-                    <a href="http://digg.com/">Digg</a>,
-                    <a href="http://informationarchitects.net/">iA</a>,
-                    <a href="http://css-tricks.com/">CSS Tricks</a>,
-                    and many others.
-                </p>
+<h3>Rather Drive Stick?</h3>
 
-                <p>Source code available on GitHub: <a href="https://github.com/necolas/normalize.css/">necolas/normalize.css</a>.</p>
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
 
-                <p>Normalize.css is a project by <a href="http://nicolasgallagher.com/">Nicolas Gallagher</a>, co-created with <a href="http://music.thewikies.com/jonneal/">Jonathan Neal</a>.</p>
-            </div>
-        </div>
+<h3>Authors and Contributors</h3>
 
-        <script>
-            window._gaq=[['_setAccount','UA-7489188-1'],['_trackPageview']];
-            (function(doc, script) {
-                var js,
-                    fjs = doc.getElementsByTagName(script)[0],
-                    frag = doc.createDocumentFragment(),
-                    add = function(url, id) {
-                        if (doc.getElementById(id)) {return;}
-                        js = doc.createElement(script);
-                        js.src = url;
-                        id && (js.id = id);
-                        frag.appendChild(js);
-                    };
+<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
 
-                // Google Analytics
-                add(('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js');
-                // Google+ button
-                add('http://apis.google.com/js/plusone.js');
-                // Twitter SDK
-                add('http://platform.twitter.com/widgets.js', 'twitter-wjs');
+<h3>Support or Contact</h3>
 
-                fjs.parentNode.insertBefore(frag, fjs);
-            }(document, 'script'));
-        </script>
+<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+        </section>
 
-    </body>
+        <aside id="sidebar">
+          <a href="https://github.com/webcoding/normalize.css/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/webcoding/normalize.css/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/webcoding/normalize.css"></a> is maintained by <a href="https://github.com/webcoding">webcoding</a>.</p>
+
+          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
 </html>
